@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src\bypasses">
+      <UniqueIdentifier>{8421145c-3faf-4bb6-abc6-b5c555b9affa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\unhooking">
+      <UniqueIdentifier>{b11c852e-629c-4f57-84e6-b743d7501f72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\decoding">
+      <UniqueIdentifier>{08327740-77b4-4634-921d-01a8b2061ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\injection">
+      <UniqueIdentifier>{980e52db-c2fd-415f-960f-8ecbbcd2b540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\persistence">
+      <UniqueIdentifier>{5440faf4-c896-4fd4-babd-c257dda90d07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\antianalysis">
+      <UniqueIdentifier>{b46069c0-946f-4dcd-bd32-2de575558215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\vendor">
+      <UniqueIdentifier>{f740eda5-a148-4419-b982-397dc4f93713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\memory">
+      <UniqueIdentifier>{76b7cd27-385f-4bfe-8e05-e8a2cad64a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\example">
+      <UniqueIdentifier>{f37d233c-c3d2-41c6-b13f-a6d3179e62a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\readme">
+      <UniqueIdentifier>{277fe96d-35fd-4671-8017-ba974662016b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\api">
+      <UniqueIdentifier>{4f793a7d-1d92-4969-9e1d-01a389ed9951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\decryption">
+      <UniqueIdentifier>{88d17bfc-8dee-4cfc-bbde-35cd8e0f8066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\obfuscator">
+      <UniqueIdentifier>{24bf7089-4156-43c6-823f-a6acc519607f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arm64_virtualizer">
+      <UniqueIdentifier>{136cf738-efc8-4589-8d7d-7ac89eac4f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pipe">
+      <UniqueIdentifier>{f016e276-dc54-4498-8cf2-62765fe02499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\smsthread">
+      <UniqueIdentifier>{185d425e-7c36-4d84-bcfe-6db03c2f2d6a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="amsi.cpp">
+      <Filter>src\bypasses</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>src\decoding</Filter>
+    </ClCompile>
+    <ClCompile Include="unhooker.h">
+      <Filter>src\unhooking</Filter>
+    </ClCompile>
+    <ClCompile Include="unhooker.cpp">
+      <Filter>src\unhooking</Filter>
+    </ClCompile>
+    <ClCompile Include="injection.cpp">
+      <Filter>src\injection</Filter>
+    </ClCompile>
+    <ClCompile Include="persistence.cpp">
+      <Filter>src\persistence</Filter>
+    </ClCompile>
+    <ClCompile Include="antianalysis.cpp">
+      <Filter>src\antianalysis</Filter>
+    </ClCompile>
+    <ClCompile Include="bitdefender.cpp">
+      <Filter>src\vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="memorymodule.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="hbp.cpp">
+      <Filter>src\bypasses</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src\example</Filter>
+    </ClCompile>
+    <ClCompile Include="eset.cpp">
+      <Filter>src\vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="extra.cpp">
+      <Filter>src\bypasses</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto.cpp">
+      <Filter>src\decryption</Filter>
+    </ClCompile>
+    <ClCompile Include="obfuscator.cpp">
+      <Filter>src\obfuscator</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualizer.cpp">
+      <Filter>src\obfuscator</Filter>
+    </ClCompile>
+    <ClCompile Include="arm64_virtualizer.cpp">
+      <Filter>src\arm64_virtualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="pipeline.cpp">
+      <Filter>src\pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="threadpool.cpp">
+      <Filter>src\smsthread</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base64.h">
+      <Filter>src\decoding</Filter>
+    </ClInclude>
+    <ClInclude Include="amsi.h">
+      <Filter>src\bypasses</Filter>
+    </ClInclude>
+    <ClInclude Include="injection.h">
+      <Filter>src\injection</Filter>
+    </ClInclude>
+    <ClInclude Include="persistence.h">
+      <Filter>src\persistence</Filter>
+    </ClInclude>
+    <ClInclude Include="antianalysis.h">
+      <Filter>src\antianalysis</Filter>
+    </ClInclude>
+    <ClInclude Include="bitdefender.h">
+      <Filter>src\vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="eset.h">
+      <Filter>src\vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="memorymodule.h">
+      <Filter>src\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="hbp.h">
+      <Filter>src\bypasses</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>src\example</Filter>
+    </ClInclude>
+    <ClInclude Include="extra.h">
+      <Filter>src\bypasses</Filter>
+    </ClInclude>
+    <ClInclude Include="NAPI.h">
+      <Filter>src\api</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto.h">
+      <Filter>src\decryption</Filter>
+    </ClInclude>
+    <ClInclude Include="obfuscator.h">
+      <Filter>src\obfuscator</Filter>
+    </ClInclude>
+    <ClInclude Include="virtualizer.h">
+      <Filter>src\obfuscator</Filter>
+    </ClInclude>
+    <ClInclude Include="arm64_virtualizer.h">
+      <Filter>src\arm64_virtualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="pipeline.h">
+      <Filter>src\pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="threadpool.h">
+      <Filter>src\smsthread</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Filter>src\readme</Filter>
+    </None>
+  </ItemGroup>
+</Project>
